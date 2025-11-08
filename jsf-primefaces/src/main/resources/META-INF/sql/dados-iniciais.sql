@@ -1,0 +1,21 @@
+insert into ramo_atividade (id, descricao) values (1, 'Distribuição de alimentos');
+insert into ramo_atividade (id, descricao) values (2, 'Telecomunicações');
+insert into ramo_atividade (id, descricao) values (3, 'Vestuário');
+insert into ramo_atividade (id, descricao) values (4, 'Lavanderia');
+insert into ramo_atividade (id, descricao) values (5, 'Gráfica');
+insert into ramo_atividade (id, descricao) values (6, 'Mecânica');
+insert into ramo_atividade (id, descricao) values (7, 'Turismo');
+insert into ramo_atividade (id, descricao) values (8, 'Saúde');
+insert into ramo_atividade (id, descricao) values (9, 'Educação');
+insert into ramo_atividade (id, descricao) values (10, 'Lazer');
+
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo_empresa, data_fundacao, ramo_atividade_id) values (1, '12.345.678/0001-90', 'Meta (Facebook)', 'Meta Platforms, Inc.', 'SA', '2004-02-04', 2);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo_empresa, data_fundacao, ramo_atividade_id) values (2, '23.456.789/0001-01', 'Carrefour Brasil', 'Carrefour Brasil S.A.', 'SA', '1959-03-01', 1);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo_empresa, data_fundacao, ramo_atividade_id) values (3, '34.567.890/0001-12', 'Google', 'Alphabet Inc.', 'SA', '1998-09-04', 2);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo_empresa, data_fundacao, ramo_atividade_id) values (4, '45.678.901/0001-23', 'Amazon', 'Amazon.com, Inc.', 'SA', '1994-07-05', 1);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo_empresa, data_fundacao, ramo_atividade_id) values (5, '56.789.012/0001-34', 'Itaú', 'Itaú Unibanco Holding S.A.', 'SA', '1945-01-01', 5);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo_empresa, data_fundacao, ramo_atividade_id) values (6, '67.890.123/0001-45', 'Bradesco', 'Banco Bradesco S.A.', 'SA', '1943-06-10', 5);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo_empresa, data_fundacao, ramo_atividade_id) values (7, '78.901.234/0001-56', 'Petrobras', 'Petróleo Brasileiro S.A. - Petrobras', 'SA', '1953-10-03', 4);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo_empresa, data_fundacao, ramo_atividade_id) values (8, '89.012.345/0001-67', 'Vale', 'Vale S.A.', 'SA', '1942-06-01', 4);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo_empresa, data_fundacao, ramo_atividade_id) values (9, '90.123.456/0001-78', 'Magazine Luiza', 'Magazine Luiza S.A.', 'SA', '1957-07-10', 3);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo_empresa, data_fundacao, ramo_atividade_id) values (10, '01.234.567/0001-89', 'Ambev', 'Ambev S.A.', 'SA', '1999-07-08', 1);

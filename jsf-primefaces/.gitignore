@@ -1,0 +1,10 @@
+# Java
+*.class
+
+# Compiled sources
+target/
+
+# Eclipse
+.project
+.classpath
+.settings/
